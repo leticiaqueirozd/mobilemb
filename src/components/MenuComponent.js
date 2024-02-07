@@ -11,8 +11,8 @@ const MenuComponent = ({ navigation }) => {
       <TouchableOpacity onPress={() => navigateTo('Contatos')}>
         <Text>Contatos</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigateTo('Mensagens')}>
-        <Text>Mensagens</Text>
+      <TouchableOpacity onPress={() => navigateTo('Chat')}>
+        <Text>Chat</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigateTo('Perfil')}>
         <Text>Perfil</Text>
